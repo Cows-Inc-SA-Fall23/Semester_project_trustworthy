@@ -19,3 +19,12 @@ Our initial approach to this is to use the following technologies for different 
 
 # Approach
 
+
+# Project Structure
+Diagrams will be located in the [Architecture Folder](https://github.com/Cows-Inc-SA-Fall23/Semester_project_trustworthy/tree/master/Architecture).
+This is a list of acces to the different description files:
+- [Allocation View](https://github.com/Cows-Inc-SA-Fall23/Semester_project_trustworthy/blob/master/Architecture/Allocation%20View/Description.md)
+
+### Allocation View
+This is an overview of the overall system with a [description file](https://github.com/Cows-Inc-SA-Fall23/Semester_project_trustworthy/blob/master/Architecture/Allocation%20View/Description.md)
+

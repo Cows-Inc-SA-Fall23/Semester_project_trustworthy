@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2024-02-26T15:54:21.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="UZkE_FpWXfccxp_HMCeK" version="23.1.5" type="device">
+  <diagram name="Page-1" id="-wPLk7UJG7pAcfFQiDis">
+    <mxGraphModel dx="1851" dy="1449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-157" y="-97" width="545" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-2" value="In home" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="-99" width="76" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-3" value="esp32" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="75.5" width="86" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-4" value="Server Hub" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-5.5" width="303" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-5" value="Elixir&lt;br&gt;Node&lt;br&gt;Rust" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hBL4LqVjh0T1ep3crxpc-4">
+          <mxGeometry x="155" y="72.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="hBL4LqVjh0T1ep3crxpc-4" source="hBL4LqVjh0T1ep3crxpc-6" target="hBL4LqVjh0T1ep3crxpc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-6" value="MQTT&lt;br&gt;Broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hBL4LqVjh0T1ep3crxpc-4">
+          <mxGeometry x="15.5" y="72.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-8" value="[ APP ]&lt;br&gt;&lt;br&gt;Expo&lt;br&gt;React native" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="508" y="27.5" width="84" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="hBL4LqVjh0T1ep3crxpc-3" target="hBL4LqVjh0T1ep3crxpc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;endFill=0;" edge="1" parent="1" source="hBL4LqVjh0T1ep3crxpc-5" target="hBL4LqVjh0T1ep3crxpc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hBL4LqVjh0T1ep3crxpc-12" value="External" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="-97" width="77" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

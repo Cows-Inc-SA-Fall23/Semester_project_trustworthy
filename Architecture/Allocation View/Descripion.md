@@ -1,4 +1,5 @@
-> [!CAUTION] A large amount of this is AI generated!!!
+> [!CAUTION]
+> A large amount of this is AI generated!!!
 
 # Allocation View
 
@@ -85,4 +86,5 @@ architecture, shedding light on its components, their communication,
 responsibilities, the technologies used, and our approach to ensuring
 trustworthiness and security.
 
-> [!CAUTION] A large amount of this is AI generated!!!
+> [!CAUTION]
+> A large amount of this is AI generated!!!

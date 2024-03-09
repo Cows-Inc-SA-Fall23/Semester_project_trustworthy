@@ -1,15 +1,16 @@
-import { Hono } from "hono";
-import { logger } from "hono/logger";
-import { createServer } from "http2";
+import { serve } from '@hono/node-server'
+import { Hono } from 'hono'
 
-const app = new Hono();
+const app = new Hono()
 
-// middleware
-app.use(logger());
+app.get('/', (c) => {
+  return c.text('Hello Hono!')
+})
 
-//routes
-app.get("/", (c) => {
-	return c.text("Hello Hono!");
-});
+const port = 3000
+console.log(`Server is running on port ${port}`)
 
-export default app;
+serve({
+  fetch: app.fetch,
+  port
+})

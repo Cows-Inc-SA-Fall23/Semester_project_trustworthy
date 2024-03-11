@@ -19,3 +19,23 @@ Our initial approach to this is to use the following technologies for different 
 
 # Approach
 
+
+# Recomended workflow and tech for Architecure
+For architecure and diagrams id recommend using VScode with md extetions and Diagrams.net extention also.
+This alows you to both write and edit the diagrams in one place and push them onto the main branch as you'd do with code also
+
+- Diagrams.net (extention)
+- Markdown (extention)
+
+# Recomended tech for server
+- Biome.js (extention in vscode)
+- Bun (required for the framework)
+
+# Recomended tech for App
+- Expo cli
+
+# Recomended tech for ESP32
+- Rust with rustup, rustc and cargo
+- Rust analysier (extention)
+
+

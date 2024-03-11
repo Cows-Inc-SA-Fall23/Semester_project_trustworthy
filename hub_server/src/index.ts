@@ -1,16 +1,10 @@
-import { serve } from '@hono/node-server'
-import { Hono } from 'hono'
+import {logger} from "@bogeychan/elysia-logger";
+import { Elysia } from 'elysia'
+import {helmet} from "elysia-helmet";
 
-const app = new Hono()
-
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
-
-const port = 3000
-console.log(`Server is running on port ${port}`)
-
-serve({
-  fetch: app.fetch,
-  port
-})
+new Elysia()
+    .use(helmet())
+    .use(logger())
+    .get('/', () => 'Landing')
+    .get('/hello', () => 'Hi')
+    .listen(3000, () => console.log('Server started on http://localhost:3000'));

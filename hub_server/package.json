@@ -1,14 +1,21 @@
 {
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts",
+    "start": "NODE_ENV=production bun src/index.ts",
+    "test": "bun test"
   },
-  "dependencies": {
-    "@hono/node-server": "^1.8.2",
-    "hono": "^4.0.9"
-  },
+  "dependencies": { "@bogeychan/elysia-logger": "^0.0.17", "elysia": "^0.8.17", "elysia-helmet": "^1.0.2" },
   "devDependencies": {
     "@biomejs/biome": "1.5.3",
+    "@types/bun": "^1.0.8",
     "@types/node": "^20.11.17",
     "tsx": "^3.12.2"
+  },
+  "name": "hub_server",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

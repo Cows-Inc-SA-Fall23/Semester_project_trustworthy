@@ -1,0 +1,4 @@
+[connection]
+serial = "/dev/tty.usbserial-1420"
+
+baudrate = 115200

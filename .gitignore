@@ -3,3 +3,5 @@
 esp32/Cargo.lock
 
 esp32/target/
+
+node_modules/
